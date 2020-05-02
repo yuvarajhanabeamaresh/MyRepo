@@ -1,0 +1,26 @@
+ORC vs Parquet:
+https://stackoverflow.com/questions/32373460/parquet-vs-orc-vs-orc-with-snappy\
+
+Hive FileFormats:
+https://acadgild.com/blog/apache-hive-file-formats
+
+Security in Hive:
+http://ijarcet.org/wp-content/uploads/IJARCET-VOL-6-ISSUE-9-1329-1332.pdf
+https://docs.cloudera.com/HDPDocuments/HDP2/HDP-2.5.0/bk_security/content/ranger_row_level_filtering_in_hive.html
+
+Security to password in Sqoop:
+http://www.hadoopadmin.co.in/bigdata/encrypt-password-used-by-sqoop-to-import-or-export-data-from-database/
+
+SQOOP cheat sheet:
+https://www.janbasktraining.com/blog/sqoop-commands-cheat-sheet/
+https://gist.github.com/mannharleen/daeaa4d99d346b4693c7f797eae4e202
+
+encloseby and optionally enclose by:
+http://discuss.itversity.com/t/optionally-enclosed-by-vs-enclosed-by/2097
+
+colocate joins:
+http://dwgeek.com/collocated-joins-optimizing-query.html/
+
+Implicits:
+https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-SparkSession-implicits.html
+https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-SparkSession-implicits.html#methods
