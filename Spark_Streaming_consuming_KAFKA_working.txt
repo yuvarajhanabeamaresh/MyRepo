@@ -1,0 +1,59 @@
+
+object Spark_Streaming {
+
+  import org.apache.spark.rdd.RDD
+  import org.apache.spark.streaming._
+  import org.apache.spark.streaming.kafka010._
+  import org.apache.kafka.common.serialization.Deserializer
+  import org.apache.kafka.common.serialization._
+  import org.apache.kafka.clients._
+  import org.apache.spark._
+  import org.apache.spark.streaming._
+  import org.apache.spark.streaming.StreamingContext._
+
+  import org.apache.spark.streaming.Seconds
+  import org.apache.spark.streaming.StreamingContext
+  import org.apache.spark.SparkContext._
+  import org.apache.spark.SparkConf
+
+  def main(args: Array[String]): Unit = {
+    val spark_conf = new SparkConf().setAppName("Spark_Streaming").setMaster("local[2]")
+    val ssc = new StreamingContext(spark_conf, Seconds{20})
+
+    val topics = List("test")
+
+    val KafkaParams1 = Map(
+      //"zookeeper.connect" -> "localhost:2181",
+      //"zookeeper.connection.timeout.ms" -> "5000",
+
+      "bootstrap.servers" -> "localhost:9092",
+      "key.deserializer" -> classOf[StringDeserializer],
+      "value.deserializer" -> classOf[StringDeserializer],
+      "group.id" -> "FIRST-GROUP5",
+      "auto.offset.reset" -> "earliest"
+    )
+// val offsets= Map("test"->1 )
+    val streams = KafkaUtils.createDirectStream(ssc, LocationStrategies.PreferConsistent, ConsumerStrategies.Subscribe[String,String](topics,KafkaParams1))
+   streams.foreachRDD(rdd=>{
+
+     rdd.foreachPartition(msg=>msg.foreach(record => println(record)
+     ))
+   })
+
+    //val dstream = KafkaUtils.createDirectStream[String, String](
+    //  ssc = streamingContext,
+    //  locationStrategy = hosts,
+    //  consumerStrategy = ConsumerStrategies.Subscribe[String, String](topics, kafkaParams, offsets))
+      // streams.foreachRDD(rdd => rdd.foreachPartition(message=>println(message))
+//         val offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
+//         for (o <- offsetRanges) {
+//           println(s"${o.topic} ${o.partition} offsets: ${o.fromOffset} to ${o.untilOffset}")
+//         }
+    //streams.print();
+
+      ssc.start()
+      ssc.awaitTermination()
+
+  }
+
+}
