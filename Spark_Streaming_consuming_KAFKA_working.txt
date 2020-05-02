@@ -34,6 +34,9 @@ object Spark_Streaming {
     )
 // val offsets= Map("test"->1 )
     val streams = KafkaUtils.createDirectStream(ssc, LocationStrategies.PreferConsistent, ConsumerStrategies.Subscribe[String,String](topics,KafkaParams1))
+    
+    
+    //Stream is split into RDD,and then RDD is split into partitions and then partitions is split into messages.
    streams.foreachRDD(rdd=>{
 
      rdd.foreachPartition(msg=>msg.foreach(record => println(record)
