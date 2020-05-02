@@ -1,0 +1,134 @@
+Modes of Hadoop
+https://www.hdfstutorial.com/blog/hadoop-modes/
+https://stackoverflow.com/questions/23435333/what-is-the-difference-between-single-node-pseudo-distributed-mode-in-hadoop
+
+
+Spark Trouble shooting
+https://developer.ibm.com/hadoop/2016/02/16/beginners-guide-apache-spark-troubleshooting/
+https://mapr.com/support/s/article/Spark-Troubleshooting-Guide-Master-list-with-hyperlinks-to-detailed-articles?language=en_US
+
+Actions and Transformations
+https://training.databricks.com/visualapi.pdf
+
+spark-modes-of-deployment
+https://techvidvan.com/tutorials/spark-modes-of-deployment/
+https://spark.apache.org/docs/latest/cluster-overview.html
+
+Number of Reducers:
+https://www.quora.com/What-are-good-ways-to-decide-number-of-reducers
+
+Storage formats
+https://spoddutur.github.io/spark-notes/deep_dive_into_storage_formats.html
+
+Encoders:
+https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-Encoder.html
+
+Dataframe and dataset
+https://mapr.com/blog/datasets-dataframes-and-spark-sql-for-processing-of-tabular-data/                  (struct type sample is given nicely).
+https://medium.com/@InDataLabs/converting-spark-rdd-to-dataframe-and-dataset-expert-opinion-826db069eb5
+https://spark.apache.org/docs/2.3.0/api/java/index.html?org/apache/spark/sql/Dataset.html
+
+Good explaination:
+https://databricks.com/spark/getting-started-with-apache-spark/datasets#create-sample-data
+
+Performance of DF vs DS
+https://stackoverflow.com/questions/54019955/why-dataframe-still-there-in-spark-2-2-also-even-dataset-gives-more-performance
+
+Functions of DataSet API:
+http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.sql.Dataset
+
+Spark Context and spark session:
+https://medium.com/@achilleus/spark-session-10d0d66d1d24
+
+Executors:
+https://stackoverflow.com/questions/32621990/what-are-workers-executors-cores-in-spark-standalone-cluster
+
+Resource Allocation:
+http://site.clairvoyantsoft.com/understanding-resource-allocation-configurations-spark-application/
+
+How Data Partitioning in Spark helps achieve more parallelism?
+https://www.dezyre.com/article/how-data-partitioning-in-spark-helps-achieve-more-parallelism/297
+
+Number of executor-Cores
+https://community.cloudera.com/t5/Support-Questions/Why-do-we-need-to-specify-executor-cores-for-Spark/m-p/235306
+
+Spark SQL Built-in-functions:
+https://spark.apache.org/docs/2.4.3/api/sql/
+
+Spark-submit
+https://spark.apache.org/docs/latest/submitting-applications.html
+https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-submit.html
+
+Aggregatebykey
+https://backtobazics.com/big-data/spark/apache-spark-aggregatebykey-example/
+
+combineByKey
+http://hadoopexam.com/adi/index.php/spark-blog/90-how-combinebykey-works-in-spark-step-by-step-explaination
+
+AggregateByKey-vs-combineByKey
+http://apache-spark-user-list.1001560.n3.nabble.com/aggregateByKey-vs-combineByKey-td15321.html
+https://github.com/vaquarkhan/Apache-Kafka-poc-and-notes/wiki/reduceByKey--vs-groupBykey-vs-aggregateByKey-vs-combineByKey
+
+Reduce vs fold
+http://apachesparkbook.blogspot.com/2015/11/reduce-examples.html?_sm_au_=inH6kP1rFSWJ61WR
+
+
+
+Blog:
+https://forums.databricks.com/questions/20492/has-anyone-taken-crt020-databricks-certified-assoc.html?childToView=20817#comment-20817
+
+Syllabus:
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3249544772526824/521888783067570/7123846766950497/latest.html
+
+Spark Config Properties:
+http://spark.apache.org/docs/latest/configuration.html#available-properties
+
+CALCULATING Executors,cores,memory of Executor Configuration:
+https://spoddutur.github.io/spark-notes/distribution_of_executors_cores_and_memory_for_spark_application.html
+http://site.clairvoyantsoft.com/understanding-resource-allocation-configurations-spark-application/
+
+newCachedThreadPool
+https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html#newCachedThreadPool-java.util.concurrent.ThreadFactory-
+
+Accumulator
+https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-accumulators.html
+
+Action:
+https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-rdd-actions.html
+
+Driver:
+https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-driver.html
+
+Driver Memory:
+https://stackoverflow.com/questions/27181737/how-to-deal-with-executor-memory-and-driver-memory-in-spark
+
+executor:
+https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-Executor.html
+
+Tasks and stages:
+https://stackoverflow.com/questions/37528047/how-are-stages-split-into-tasks-in-spark
+
+Caching and persistence:
+https://stackoverflow.com/questions/28981359/why-do-we-need-to-call-cache-or-persist-on-a-rdd
+https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-rdd-caching.html
+https://techvidvan.com/tutorials/persistence-and-caching-mechanism/
+
+Shuffling:
+https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F13/projects/reports/project16_report.pdf
+https://stackoverflow.com/questions/31386590/when-does-shuffling-occur-in-apache-spark
+http://spark.apache.org/docs/latest/configuration.html#shuffle-behavior
+https://0x0fff.com/spark-architecture-shuffle/ -----detailed
+
+Transformation and actions:
+http://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations
+
+StructType:
+https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-StructType.html
+https://spark.apache.org/docs/2.2.1/api/java/org/apache/spark/sql/types/StructType.html
+
+Git:
+https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs
+https://www.geeksforgeeks.org/centralized-vs-distributed-version-control-which-one-should-we-choose/
+
+Optimization technique:
+https://www.xenonstack.com/blog/apache-spark/

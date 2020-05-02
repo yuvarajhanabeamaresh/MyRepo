@@ -1,0 +1,87 @@
+scala compatibility
+
+https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html
+
+
+https://dzone.com/articles/understanding-of-spark-sql-dataframes-and-datasets
+
+https://techvidvan.com/tutorials/apache-spark-dataframe-vs-datasets/
+
+scala Implicits
+http://baddotrobot.com/blog/2015/07/03/scala-implicit-parameters/
+
+scala tut
+https://www.journaldev.com/9733/scala-caseclass-caseobject-part1
+
+spiral traverse tutorial
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+
+collection doc
+
+https://docs.scala-lang.org/overviews/collections-2.13/trait-iterable.html
+
+Apply function
+https://blog.matthewrathbone.com/2017/03/06/scala-object-apply-functions.html
+
+Type casting
+https://www.geeksforgeeks.org/type-casting-in-scala/
+
+
+API Doc link
+
+https://www.scala-lang.org/api/current/scala/collection/LinearSeq.html
+
+
+Scala parallel collections
+https://alvinalexander.com/scala/how-to-use-parallel-collections-in-scala-performance
+
+GeekforGeeks
+https://www.geeksforgeeks.org/bitset-in-scala/
+
+Sorting seq n lists n other collections.
+https://alvinalexander.com/scala/how-to-sort-scala-collections-sortwith-sorted-ordered-ordering
+
+Ordered n ordering
+http://like-a-boss.net/2012/07/30/ordering-and-ordered-in-scala.html
+https://www.scala-lang.org/api/2.7.1/scala/Ordering.html
+
+
+Scala collections-HOW TO CHOOSE SCALA METHODS TO SOLVE MY PROBLEM
+https://alvinalexander.com/scala/how-to-choose-scala-collection-method-solve-problem-cookbook
+
+
+Linear vs Indexed based Sequence(Nicely explained)
+https://stackoverflow.com/questions/36091667/what-is-the-difference-between-seq-and-indexedseq-linearseq-in-scala
+
+STRING
+https://docs.scala-lang.org/overviews/collections/strings.html
+https://www.scala-lang.org/api/2.12.4/scala/collection/immutable/StringOps.html
+https://www.scala-lang.org/api/2.12.4/scala/collection/immutable/WrappedString.html
+https://alvinalexander.com/scala/scala-string-examples-collection-cheat-sheet
+
+Vector
+https://www.scala-lang.org/docu/files/collections-api/collections_15.html
+https://stackoverflow.com/questions/20612729/how-does-scalas-vector-work
+https://stackoverflow.com/questions/6928327/when-should-i-choose-vector-in-scala
+
+Performance of each collections
+https://docs.scala-lang.org/overviews/collections/performance-characteristics.html
+
+Sealed Trait
+https://www.geeksforgeeks.org/scala-sealed-trait/
+
+CanBuildFrom
+https://stackoverflow.com/questions/5200505/how-are-scala-collections-able-to-return-the-correct-collection-type-from-a-map/5200633#5200633
+https://www.dotkam.com/2012/05/08/scala-fun-with-canbuildfrom/
+
+Difference between Stack and Queue
+https://javarevisited.blogspot.com/2017/03/difference-between-stack-and-queue-data-structure-in-java.html
+
+App Trait
+https://alvinalexander.com/scala/how-to-launch-scala-application-with-object-main-method-trait
+https://www.scala-lang.org/api/current/scala/App.html
+
+
+PartialFunction
+https://www.scala-lang.org/api/2.12.4/scala/PartialFunction.html
+https://alvinalexander.com/scala/how-to-define-use-partial-functions-in-scala-syntax-examples

@@ -1,0 +1,41 @@
+Sql Server Documentation:Official
+
+https://docs.microsoft.com/en-us/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017
+
+Normalization
+
+https://www.guru99.com/database-normalization.html
+
+SCHEMA
+http://www.informit.com/articles/article.aspx?p=1216889&seqNum=2
+Youtube video with most views
+https://www.c-sharpcorner.com/UploadFile/ff2f08/schema-in-sql-server/
+
+difference-between-SQL-and-MySQL-or-SQL-Server
+https://www.quora.com/What-is-the-difference-between-SQL-and-MySQL-or-SQL-Server
+
+
+Self Join:
+http://www.sqlservertutorial.net/sql-server-basics/sql-server-self-join/
+
+Joins:
+https://academy.vertabelo.com/blog/illustrated-guide-multiple-join/
+
+TimeStamp:
+http://www.sqlservertutorial.net/sql-server-date-functions/sql-server-current_time-function/
+
+CharIndex:
+https://www.jquery-az.com/charindex-function-sql/
+
+Coalesce:
+https://www.sqlshack.com/using-the-sql-coalesce-function-in-sql-server/
+
+
+Hive Partitioning:
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-AlterPartition
+
+Joins in Hive:
+https://acadgild.com/blog/join-in-hive-optimization
+
+Version control system.
+https://www.teamstudio.com/blog/distributed-vs-centralized-version-control-systems-for-lotus-notes
